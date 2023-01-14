@@ -1,0 +1,14 @@
+taco-cloud:
+  email:
+    host: IMAP.gmail.com
+    mailbox: INBOX
+    username: test.taco-cloud.com
+    password: pass
+  api:
+    url: https://localhost:8443/api/orders
+    login: q
+    password: 1
+
+spring:
+  main:
+    web-application-type: none
