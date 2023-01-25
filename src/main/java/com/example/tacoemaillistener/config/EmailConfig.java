@@ -13,7 +13,7 @@ public class EmailConfig {
     private String password;
     private String host;
     private String mailbox;
-    private long pollRate = 30000;
+    private long pollRate = 3000000;
 
     public String getImapUrl() {
         return String.format("imaps://%s:%s@%s/%s",
